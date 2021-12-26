@@ -1,6 +1,4 @@
 // 12/26/21 Jeff Rosengarden MBPro Silicon
-// This line added from MBPro @ 12/26/21 12:45PM
-// This line added from iMac5K @ 12/26/21 12:48PM
 
 import express from 'express'
 import cors from 'cors'
