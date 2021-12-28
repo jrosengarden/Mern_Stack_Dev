@@ -33,9 +33,9 @@ export default class MoviesDAO{
         let cursor 
         try{
             cursor = await movies
-                        .find(query)
-                        .limit(moviesPerPage)
-                        .skip(moviesPerPage * page)           
+            .find(query)
+            .limit(moviesPerPage)
+            .skip(moviesPerPage * page)           
             const moviesList = await cursor.toArray()
             const totalNumMovies = await movies.countDocuments(query)
             return {moviesList, totalNumMovies}
