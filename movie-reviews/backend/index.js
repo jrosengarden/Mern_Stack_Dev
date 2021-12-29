@@ -1,4 +1,6 @@
 // 12/29/21 Jeff Rosengarden
+// more testing off staging, committing and pushing via Visual Studio Code
+// instead of from the terminal's command line.
 
 import app from './server.js'
 import mongodb from "mongodb"
