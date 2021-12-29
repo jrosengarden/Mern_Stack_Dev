@@ -1,31 +1,18 @@
 {
-                          "/": "My use of the / for every comment will create duplicate key values",
-                          "/": "When the file is parsed but since they are simply my version of comments",
-                          "/": "This is OK.  The code compiles properly",
-                          "/": "12/26/21 Jeff Rosengarden - package.json created with npm init",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",       "/": "Added due to using ES6s import statements in .js files within the project",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-                          "/" : " 12/26/21 Jeff Rosengarden",
-                          "/" : " the following dependencies created with npm install express cors mongodb dotenv",
-                          "/" : " which then creates the ../node_modules directory and loads in everything else that",
-                          "/" : " is needed by the requested modules",
-                          "/" : " and creates the package-lock.json file which tracks all the dependencies",
-    "cors": "^2.8.5",     "/" : "Explanation: Cross-Origin Resource Sharing",
-    "dotenv": "^10.0.0",  "/" : "Explanation: loads env variables from process.env",
-    "express": "^4.17.2", "/" : "Explanation: framework atop node.js to simplify API's",
-    "mongodb": "^4.2.2",  "/" : "Explanation: ability to interact with a MongoDB",
-                          "/" : " Next: issue command npm install -g nodemon which installs a package",
-                          "/" : " that monitors project for code changes and then restarts the Node server",
-                          "/" : " automatically avoiding the need to stop/restart it.  The -g switch installs",
-                          "/" : " nodemon globally to our projects system path"
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2"
   }
 }
