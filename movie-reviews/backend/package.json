@@ -1,31 +1,28 @@
 {
-                          "/01": "My use of the / for every comment will create duplicate key values",
-                          "/02": "When the file is parsed but since they are simply my version of comments",
-                          "/03": "This is OK.  The code compiles properly",
-                          "/04": "12/26/21 Jeff Rosengarden - package.json created with npm init",
+                          "/01": "12/26/21 Jeff Rosengarden - package.json created with npm init",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",       "/05": "Added due to using ES6s import statements in .js files within the project",
+  "type": "module",       "/02": "Added due to using ES6s import statements in .js files within the project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-                          "/06" : " 12/26/21 Jeff Rosengarden",
-                          "/07" : " the following dependencies created with npm install express cors mongodb dotenv",
-                          "/08" : " which then creates the ../node_modules directory and loads in everything else that",
-                          "/09" : " is needed by the requested modules",
-                          "/10" : " and creates the package-lock.json file which tracks all the dependencies",
-    "cors": "^2.8.5",     "/11" : "Explanation: Cross-Origin Resource Sharing",
-    "dotenv": "^10.0.0",  "/12" : "Explanation: loads env variables from process.env",
-    "express": "^4.17.2", "/13" : "Explanation: framework atop node.js to simplify API's",
-    "mongodb": "^4.2.2",  "/14" : "Explanation: ability to interact with a MongoDB",
-                          "/15" : " Next: issue command npm install -g nodemon which installs a package",
-                          "/16" : " that monitors project for code changes and then restarts the Node server",
-                          "/17" : " automatically avoiding the need to stop/restart it.  The -g switch installs",
-                          "/18" : " nodemon globally to our projects system path"
+                          "/03" : " 12/26/21 Jeff Rosengarden",
+                          "/04" : " the following dependencies created with npm install express cors mongodb dotenv",
+                          "/05" : " which then creates the ../node_modules directory and loads in everything else that",
+                          "/06" : " is needed by the requested modules",
+                          "/07" : " and creates the package-lock.json file which tracks all the dependencies",
+    "cors": "^2.8.5",     "/08" : "Explanation: Cross-Origin Resource Sharing",
+    "dotenv": "^10.0.0",  "/09" : "Explanation: loads env variables from process.env",
+    "express": "^4.17.2", "/10" : "Explanation: framework atop node.js to simplify API's",
+    "mongodb": "^4.2.2",  "/11" : "Explanation: ability to interact with a MongoDB",
+                          "/12" : " Next: issue command npm install -g nodemon which installs a package",
+                          "/13" : " that monitors project for code changes and then restarts the Node server",
+                          "/14" : " automatically avoiding the need to stop/restart it.  The -g switch installs",
+                          "/15" : " nodemon globally to our projects system path"
   }
 }
