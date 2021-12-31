@@ -7,6 +7,7 @@ import dotenv from "dotenv"                         // declared in package.json
 import MoviesDAO from './dao/moviesDAO.js'          // get reference to the moviesDAO file
                                                     // which has the definition of the MoviesDAO object
                                                     // along with the injectDB() & getMovies() methods
+import ReviewsDAO from './dao/reviewsDAO.js'
  
 async function main(){                              // create async function main() to connect to mongoDB cluster
                                                     // and call functions that access the database
@@ -20,8 +21,9 @@ process.env.MOVIEREVIEWS_DB_URI,
      try {
         // Connect to the MongoDB cluster
         await client.connect()                      // now wait until a connection to the database is made
-	await MoviesDAO.injectDB(client)                // but before starting server call injectDB to get the
+	    await MoviesDAO.injectDB(client)            // but before starting server call injectDB to get the
                                                     // initial reference to the movies collection in the db
+        await ReviewsDAO.injectDB(client)
  
         app.listen(port, () =>{                     // if connected with no issues the web server is started
             console.log('server is running on port:'+port);        // and displays this message
