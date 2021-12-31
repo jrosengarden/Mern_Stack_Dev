@@ -18,7 +18,8 @@ app.use(express.json())                                     // express.json is J
  
 app.use("/api/v1/movies", movies)                           // specify the initial routes using standard protocol
 app.use('*', (req,res)=>{                                   // any other route (which won't exist) will return the
-     res.status(404).json({error: "not found"})             // "not found" message
+     res.status(404).json(
+          {error: "requested path not found"})             // "not found" message
 })
  
 export default app                                          // app (our server) is now exported as a module so that other
