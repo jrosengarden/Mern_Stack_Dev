@@ -1,5 +1,6 @@
 // 12/29/21 Jeff Rosengarden
 // for connecting to the database and starting the server
+// Test GIT connectivity after moving folder
 
 import app from './server.js'                       // import app created in server.js
 import mongodb from "mongodb"                       // declared in package.json
