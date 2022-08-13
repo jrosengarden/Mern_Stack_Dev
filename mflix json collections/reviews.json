@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "61e851abc07f61232027dde3"
+  },
+  "name": "john",
+  "user_id": "1234",
+  "date": {
+    "$date": "2022-01-20T02:28:20.714Z"
+  },
+  "review": "This was just a so-so movie: Blacksmith Scene",
+  "movie_id": {
+    "$oid": "61e851abc07f61232027dde2"
+  }
+}]
