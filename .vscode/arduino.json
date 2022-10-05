@@ -1,0 +1,5 @@
+{
+    "configuration": "pnum=B_G431B_ESC1,upload_method=MassStorage,xserial=generic,usb=none,xusb=FS,opt=osstd,dbg=none,rtlib=nano",
+    "board": "STMicroelectronics:stm32:Disco",
+    "sketch": "../../../../Arduino/sketches/STM32 Boards/3. Nucleo_F411re/Nucleo-PinMapping-for-Arduino-master/Nucleo_Map/Examples By JR/Blink_w_Button/Blink_w_Button.ino"
+}
